@@ -3,38 +3,38 @@
 #defining a function
 
 #input in function definion is called parameter
-# def sayHello(fname,lname):
-#     print("Hello",fname+" ",lname)
+def sayHello(fname,lname):
+    print("Hello",fname+" ",lname)
 
 
-# #calling a function
+#calling a function
 
-# #argument -> the input given during function calling called argument
-# sayHello(lname="Kumar",fname="Sumit")
+#argument -> the input given during function calling called argument
+sayHello(lname="Kumar",fname="Sumit")
 
 
-# #return keyword
+#return keyword
 
-# def addition(num1,num2):
-#     return num1+num2
+def addition(num1,num2):
+    return num1+num2
 
-# add = addition(10,15)
-# print(add)
+add = addition(10,15)
+print(add)
 
-# name = "Sumit"
+name = "Sumit"
 
-# #global scope
-# def format_name(fname,lname):
-#     global name
-#     name = "Amit"
-#     print(name)
-#     #local scope
-#     print("Hi "+fname+ " "+lname)
-#     # return "Hi "+fname +" "+lname
-# print("n",name)
+#global scope
+def format_name(fname,lname):
+    global name
+    name = "Amit"
+    print(name)
+    #local scope
+    print("Hi "+fname+ " "+lname)
+    # return "Hi "+fname +" "+lname
+print("n",name)
 
-# formatted_name = format_name("Sumit","Kumar")
-# print(formatted_name)
+formatted_name = format_name("Sumit","Kumar")
+print(formatted_name)
 
 
 
