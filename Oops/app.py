@@ -55,3 +55,13 @@ student1.speak()
 teacher = Teacher("Ansh", 21, "123")
 print(teacher.department_id)
 teacher.speak()
+
+
+
+def __init__(self, name, age, gender):
+    self.name = name
+    self.age = age
+    self.gender = gender
+
+
+   
